@@ -2,6 +2,7 @@
    <?php
 include('header.php');
 ?>
+
 <style type="text/css">
 #vid 
 {
@@ -144,10 +145,12 @@ include('header.php');
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+
     <section class="banner">
         <div class="slider video-slider">
             <div class="banner-outer">
                 <div class="video-banner">
+
                     <video poster="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_L_Video_Poster_w1366h768_ncc.jpg" autoplay muted loop playsinline id="vid">
                         <!-- <source src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_1440k_b1440k_scale1920_test106.mp4"> -->
  
@@ -166,11 +169,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>-->
                     
                     
+
                 </div> 
             </div> 
             <div class="overlay"></div>
         </div>
-    
+
  <!--
         <div class="banner-form form-style-1">
             <div class="container">
@@ -235,6 +239,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
     <!-- banner Ends -->
     
+
     <!-- About Us Start -->
     <section class="about-us section-abt">
         <div class="container">
@@ -242,6 +247,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h1 data-animation="animated fadeInUp">Welcome to <span>Bangalore Gate</span></h1>
                 <p class="h_text">Hotel Bangalore Gate is an ideal location to explore Bengaluru and all its attractions.</p> 
         </div>
+
             <div class="section-title">
                 <h2>About <span>Us</span></h2>
                 <p>Stay In The Heart Of Bangalore, at the 3 star Hotel Bangalore Gate & enjoy a superb location, quality rooms, great food and fabulous service. </p>
@@ -260,18 +266,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="about-image">
                             <div class="image-box">
                                 <div class="image-1 abt-image">
+
                                     <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square1.jpg" alt="image">
                                 </div>
                                 <div class="image-2 abt-image">
                                     <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square2.jpg" alt="image">
+
                                 </div>
                             </div>
                             <div class="image-box">
                                 <div class="image-3 abt-image">
+
                                     <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square3.jpg" alt="image">
                                 </div>
                                 <div class="image-4 abt-image">
                                     <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square4.jpg" alt="image">
+
                                 </div>
                             </div>
                         </div>
@@ -294,6 +304,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="room-item">
                         <div class="room-image">
+
                                 <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_SilverExec_Curtains_L_w1366h768_CC.jpeg" alt="image">
                             </div>
                             <div class="room-content">
@@ -303,6 +314,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <div class="deal-rating">
                                        
 
+
                                     </div>
                                 </div>
                                 <div class="room-services mar-bottom-15">
@@ -311,6 +323,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
                                     </ul>
                                 </div>
+
                                 <p>A great option for budget conscious guests, our Silver Executive room has 200 sq ft of space with a generous or twin bed and work desk as well. Complimentary mineral water and Tea/Coffee Maker plus hygiene kit are complimentary.<br><br><br><br><br><br><br></p>
                                 <div class="room-btns mar-top-20">
                                 <a class="btn btn-black mar-right-10" data-toggle="modal" data-target="#Mo">
@@ -318,6 +331,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </a>
                                    
                                     <a href="https://bangaloregate.rooms-wizard.com/" target="_blank" class="btn btn-orange">BOOK NOW</a>
+
                                 </div>
                             </div>
                         </div>
@@ -325,6 +339,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="room-item">
                         <div class="room-image">
+
                         <img style="height: 35%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_GOLD_DBLBED2_L_w1366h768_cc.jpg" alt="image">
                             </div>
                             <div class="room-content">
@@ -333,6 +348,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <p>INR 4000/Night</p>
                                     <div class="deal-rating">
                                         
+
                                     </div>
                                 </div>
                                 <div class="room-services mar-bottom-15">
@@ -341,12 +357,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
                                     </ul>
                                 </div>
+
                                 <p>Relaxed interiors allow guests in our Gold Superior room to wallow in 220 sq ft of  superior living space with a generous queen or twin bed and mid sized work desk as well.  Wooden Flooring,  Deluxe Furnishing, Large Windows create a luxurious ambience. Kick off those shoes and put your legs up on our 2 seater sofa, whilst you watch movies on our Large LCD TV. A Mini Fridge with  Mineral water and Tea/Coffee Maker plus hygiene kit are complimentary. </p>
+
                                 <div class="room-btns mar-top-20">
                                 <a class="btn btn-black mar-right-10" data-toggle="modal" data-target="#Moda">
                                 VIEW DETAILS
   </a>    
+
                 <a href="https://bangaloregate.rooms-wizard.com/" target="_blank" class="btn btn-orange">BOOK NOW</a>
+
                                 </div>
                             </div>
                         </div>
@@ -354,6 +374,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="room-item">
                             <div class="room-image">
+
                             <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/Blr_Gate_Platinum_Sunlit_L_w1366h768_cc.jpg" alt="image">
                             </div>
                             <div class="room-content">
@@ -363,6 +384,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <div class="deal-rating">
                                        
                                        
+
                                     </div>
                                 </div>
                                 <div class="room-services mar-bottom-15">
@@ -371,13 +393,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
                                     </ul>
                                 </div>
+
                                 <p>Luxury , Refinement & Relaxation are what guests experience in our Platinum Deluxe Room. 280 sq ft of  expansive living space with a king size or twin bed and mid sized work desk ensure all your needs are catered for.  Wooden Flooring,  Deluxe Furnishing, & Large Windows create a luxurious ambience. Put your legs up on our 3 seater sofa, whilst you have a cup of tea on the sofa and center table set. Watch movies on our Large LCD TV. A Mini Fridge with  Mineral water and Tea/Coffee Maker plus hygiene kit are complimentary. </p>
+
                                 <div class="room-btns mar-top-20">
                                 <a class="btn btn-black mar-right-10" data-toggle="modal" data-target="#Mod">
                                 VIEW DETAILS
   </a>
                                    
+
                                     <a href="https://bangaloregate.rooms-wizard.com/" target="_blank" class="btn btn-orange">BOOK NOW</a>
+
                                 </div>
                             </div>
                         </div>
@@ -426,10 +452,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="service-item">
                             <div class="service-image">
+
                                 <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate_Restaurant(1)_P_360x799.jpg" alt="Image">
                             </div>
                             <div class="service-content">
                                 <h4><a href="">Restaurant</a></h4>
+
                                 <p>Multi Cuisine open 7-11</p>
                             </div>
                         </div>
@@ -437,10 +465,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="service-item">
                             <div class="service-image">
+
                                 <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate+_Royale_Banquets_P_360x800.jpg" alt="Image">
                             </div>
                             <div class="service-content">
                                 <h4><a href="">Wedding & Events</a></h4>
+
                                 <p>​​​​Elegant Wedding Venues</p>
                             </div>
                         </div>
@@ -448,10 +478,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="service-item">
                             <div class="service-image">
+
                                 <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate_Regent_Board_Room_P_360x780.JPG" alt="Image">
                             </div>
                             <div class="service-content">
                                 <h4><a href="">Conference Room</a></h4>
+
                                 <p>​​Board & Large Meetings</p>
                             </div>
                         </div>
@@ -619,7 +651,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="newsletter-form">
                 <form>
                     <input type="email" placeholder="Enter your email">
+
                     <a href="https://directmail.kalltrip.com/subscription?f=OjYokM4SeApoZItqb7TXX7xgn53oYLn7dhi6EQxpNMvs38JADd763EjUDkd76Z0l763d763BKJU7hbrgT3WBkhXefWCA" class="btn btn-orange">SIGN UP</a>
+
                 </form>
             </div>
         </div>
@@ -639,6 +673,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </button> -->
 
 <!-- The Modal -->
+
 <div class="modal" id="Mo">
     <div class="modal-dialog modal-dialog-scrollable ">
       <div class="modal-content">
@@ -653,6 +688,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="modal-body">
     
 
+
     <!-- Preloader -->
     <div id="preloader">
         <div id="status"></div>
@@ -665,9 +701,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="breadcrumb-outer" >
         <div class="container">
             <div class="row">
+
             <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="breadcrumb-content">
                 <h4 style="color:#fff;">Room Details</h4>
+
                 
              <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
@@ -689,7 +727,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
 
 
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:auto; width:100%;">
+
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -700,6 +740,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" >
     <div class="item active">
+
     <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_SilverExec_L_w1366h768_CC.jpg" alt="image">
     </div>
 
@@ -709,6 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="item">
     <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_SilverExec_Curtains_L_w1366h768_CC.jpeg" alt="image">
+
     </div>
   </div>
 
@@ -722,6 +764,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <span class="sr-only">Next</span> 
   </a> 
 </div>
+
 
             <div class="detail-content">
                 <div class="detail-title">
@@ -964,6 +1007,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
     </div>
   </div>
 
+
 </div>
 
 
@@ -984,12 +1028,14 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
         <!-- Modal Header -->
         <div class="modal-header">
           <h1 class="modal-title"></h1>
+
           <button type="button" class="close  " data-dismiss="modal" style="color:red;">×</button>
+
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-       
+
     <!-- Preloader -->
     <div id="preloader">
         <div id="status"></div>
@@ -1002,9 +1048,11 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
     <section class="breadcrumb-outer" >
         <div class="container">
             <div class="row">
+
             <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="breadcrumb-content">
                 <h4 style="color:#fff;">Room Detail</h4>
+
                 
              <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
@@ -1026,7 +1074,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
         
 
 
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:auto; width:100%;">
+
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -1037,6 +1087,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" >
     <div class="item active">
+
     <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_GOLD_DBLBED2_L_w1366h768_cc.jpg" alt="image">
     </div>
 
@@ -1046,6 +1097,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
   
     <div class="item">
     <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_GOLD_Bath_L_w1366h768_cc.jpg" alt="image">
+
     </div>
   </div>
 
@@ -1062,12 +1114,14 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
             <div class="detail-content">
                 <div class="detail-title">
                     <div class="title-left">
+
                         <h3>GOLD SUPERIOR ROOM</h3>
                         <div class="rating">
                             <!-- <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span> -->
+
                             <!-- <span class="fa fa-star checked"></span> -->
                         </div>
                     </div>
@@ -1075,6 +1129,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                 </div>
                 <div class="detail-overview">
                     <div class="row">
+
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="overview-outer">
                                 <div class="overview-content mar-bottom-30">
@@ -1095,11 +1150,14 @@ Large Size Dressing Mirror with Lamp
 Desk Intercom
 2 Bedside Electric Multi-Pin Sockets for devices.
 Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>                                    
+
                                 </div>
                            
                             </div>
                         </div>
+
                         
+
                     </div>
                 </div>    
             </div>
@@ -1124,7 +1182,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                     </div>
                     </div>
                 </div>
+
                 <br>
+
                 <div class="row">
                 <div class=" col-md-3 col-sm-3 col-xs-3">
                     <div class="form-group">
@@ -1137,7 +1197,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                     </div>
                     </div>
                 </div>
+
                 <br>
+
                 <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3">
                     <div class="form-group form-icon">
@@ -1184,6 +1246,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
     <section class="amenities">
         <div class="container">
 
+
                 <h4 style="text-align: center;">Explore <span style="color:red;">Amenities</span></h4>
             
             <div class="amenities-content">
@@ -1191,6 +1254,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                     
                     <div class="row">
                            <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-car" aria-hidden="true"></i>
@@ -1198,8 +1262,10 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                             <h4>Transport</h4>
                         </div>
                     </div>
+
                    
                     <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-wifi" aria-hidden="true"></i>
@@ -1209,7 +1275,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                     </div>
                     </div>
                     <div class="row">
+
                     <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-bath" aria-hidden="true"></i>
@@ -1217,8 +1285,10 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                             <h4>Laundry service</h4>
                         </div>
                     </div>
+
                     
                     <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item">
                             <div class="amt-icon">
                                 <i class="fa fa-bolt" aria-hidden="true"></i>
@@ -1227,18 +1297,24 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                         </div>
                     </div>
                     </div>
+
                    
+
         </div>
     </section>
     <!-- amenities Ends -->
 
 
+   
+
     <!-- detail review starts -->
     <!-- <section class="detail-reviews">
         <div class="container">
 
+
                 <h4 style="margin-left:90px;">Explore <span style="color:red;">Reviews</span></h4>
             
+
             <div class="comment-box">
                 <h4>Leave a message</h4>
                 <form>
@@ -1262,7 +1338,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                             <input type="text" class="form-control" id="number" placeholder="Phone">
                         </div>
                         </div>
-   
+
                         <div class="row">
                         <div class="textarea col-xs-4 ">
                             <textarea placeholder="Enter a message"></textarea>
@@ -1282,6 +1358,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
     <!-- detail review Ends -->
 
 
+
     
     <!-- Back to top start -->
     <div id="back-to-top">
@@ -1291,6 +1368,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
 
 
    
+
         </div>
         
         <!-- Modal footer -->
@@ -1317,7 +1395,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
   </button> -->
 
   <!-- The Modal -->
+
 <div class="modal" id="Mod">
+
     <div class="modal-dialog modal-dialog-scrollable ">
       <div class="modal-content">
       
@@ -1329,7 +1409,6 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
         
         <!-- Modal body -->
         <div class="modal-body">
-  
 
     <!-- Preloader -->
     <div id="preloader">
@@ -1343,9 +1422,11 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
     <section class="breadcrumb-outer" >
         <div class="container">
             <div class="row">
+
             <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="breadcrumb-content">
                 <h4 style="color:#fff;">Room Details</h4>
+
                 
              <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
@@ -1367,7 +1448,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
         
 
 
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:auto; width:100%;">
+
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -1378,6 +1461,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" >
     <div class="item active">
+
     <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/Blr_Gate_Platinum_Sunlit_L_w1366h768_cc.jpg" alt="image">
     </div>
 
@@ -1387,6 +1471,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
   
     <div class="item">
     <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_Planitum_Bath_L_w641h768_cc.jpeg" alt="image">
+
     </div>
   </div>
 
@@ -1437,11 +1522,14 @@ Wooden Flooring
 Desk Intercom
 2 Bedside Electric Multi-Pin Sockets for devices.
 Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>                                   
+
                                 </div>
                            
                             </div>
                         </div>
+
                       
+
                     </div>
                 </div>    
             </div>
@@ -1526,6 +1614,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
     <section class="amenities">
         <div class="container">
 
+
                 <h4 style="text-align: center;">Explore <span style="color:red;">Amenities</span></h4>
             
             <div class="amenities-content">
@@ -1533,6 +1622,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                     
                     <div class="row">
                            <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-car" aria-hidden="true"></i>
@@ -1540,8 +1630,10 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                             <h4>Transport</h4>
                         </div>
                     </div>
+
                    
                     <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-wifi" aria-hidden="true"></i>
@@ -1551,7 +1643,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                     </div>
                     </div>
                     <div class="row">
+
                     <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-bath" aria-hidden="true"></i>
@@ -1559,8 +1653,10 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                             <h4>Laundry service</h4>
                         </div>
                     </div>
+
                   
                     <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item">
                             <div class="amt-icon">
                                 <i class="fa fa-bolt" aria-hidden="true"></i>
@@ -1569,7 +1665,9 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
                         </div>
                     </div>
                     </div>
+
                     
+
         </div>
     </section>
     <!-- amenities Ends -->
@@ -1581,6 +1679,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
 
                 <h4 style="margin-left:90px;">Explore <span style="color:red;">Reviews</span></h4>
             
+
             <div class="comment-box">
                 <h4>Leave a message</h4>
                 <form>
@@ -1623,6 +1722,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
     </section> -->
     <!-- detail review Ends -->
 
+
         </div>
         
         <!-- Modal footer -->
@@ -1635,6 +1735,7 @@ Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>
   </div>
   
 </div>
+
   <link href="css/plugin.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 <!-- *Scripts* -->
@@ -1697,6 +1798,7 @@ window.addEventListener("resize", function(){
   }
 });
     </script>
+
 
 
 
