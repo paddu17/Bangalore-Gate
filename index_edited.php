@@ -3,31 +3,178 @@
 include('header.php');
 ?>
 
+<style type="text/css">
+#vid 
+{
+   /* position:fixed;*/
+    z-index: -1;
+
+    width:100% !important;   
+    
+    top: 50% !important; 
+    
+} 
+ .section-abt
+{
+    top: 55px;
+}
+.overlay
+{
+    /*height: 90% !important;*/
+}
+.swiper-content h1 {
+ 
+    margin-top: -45px;
+}
+.ttl
+{
+    text-align: center;
+    width: 80% !important;
+}
+
+.slider 
+{
+   /* height: 535px !important;*/
+}
+.section-abt 
+{
+    padding: 0px !important;
+}
+@media only screen and (max-width: 1080px)
+{
+
+#vid 
+    {
+        top:37% !important; 
+    }
+    .ttl h1 {
+    font-size: 20px !important;
+     margin-bottom: 0px !important;
+     margin-top: 25px;
+    }
+
+    .slider {
+    
+    }
+    .h_text
+    {
+        font-size: 15px;
+    }
+    .section-abt
+    {
+        top: -302px;
+    }
+    .overlay
+    {
+      /*  height: 64% !important;*/
+    }
+}
+@media only screen and (max-width: 768px) 
+{
+    
+    
+    #vid 
+    {
+        top: 28% !important;
+    }
+    .overlay
+    {
+        /*height: 46% !important;*/
+    }
+
+}
+@media only screen and (max-width: 480px) 
+{
+    #vid 
+    {
+        top: 23% !important;
+    }
+}
+@media only screen and (max-width: 400px)
+{
+
+    .overlay
+    {
+        height: 37% !important;
+    }
+    #vid 
+    {
+        top:18% !important; 
+    }
+      .slider {
+    /*height: 398px !important;*/
+    }
+    .ttl h1 {
+    font-size: 20px !important;
+     margin-bottom: 0px !important;
+     margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 280px)
+{
+
+    .overlay
+    {
+        height: 27% !important;
+    }
+    #vid 
+    {
+        top:12% !important; 
+    }
+     
+    .ttl h1 {
+    font-size: 16px !important;
+     margin-bottom: 0px !important;
+     margin-top: 20px;
+    }
+}
+
+
+
+
+
+</style>
+<head>
+      
+
+</head>
+
+  
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5QPCXK"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) →
-    <!-- banner starts -->
+<!-- End Google Tag Manager (noscript) -->
+
+
     <section class="banner">
         <div class="slider video-slider">
             <div class="banner-outer">
                 <div class="video-banner">
-                    <video autoplay muted loop playsinline id="vid">
-                        <source src="
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePageVideo01.mp4" type="video/mp4">
+
+                    <video poster="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_L_Video_Poster_w1366h768_ncc.jpg" autoplay muted loop playsinline id="vid">
+                        <!-- <source src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_1440k_b1440k_scale1920_test106.mp4"> -->
+ 
+
+<!-- <source src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/HomePageVideo01.mp4" type="video/mp4" media="">  -->
+                  
+
+
                     </video>
+  
+
                 </div>
                 <div class="video-banner-content swiper-content">
-                    <div class="slider-logo">
+                   <!-- <div class="slider-logo">
                         <img src="images/icons/bed-logo.png" alt="Image">
-                    </div>
-                    <h3 data-animation="animated fadeInUp">The lap of Luxury</h3>
-                    <h1 data-animation="animated fadeInUp">Welcome to <span>Bangalore Gate</span></h1>
-                    <p>Hotel Bangalore Gate is an ideal location to explore Bengaluru and all its attractions.</p>  
+                    </div>-->
+                    
+                    
+
                 </div> 
             </div> 
             <div class="overlay"></div>
         </div>
+
  <!--
         <div class="banner-form form-style-1">
             <div class="container">
@@ -86,6 +233,7 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                         </div>
                     </div>
                 </div>-->
+
             </div>
         </div>
     </section>
@@ -93,8 +241,13 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
     
 
     <!-- About Us Start -->
-    <section class="about-us">
+    <section class="about-us section-abt">
         <div class="container">
+             <div class="section-title ttl" style="">
+                <h1 data-animation="animated fadeInUp">Welcome to <span>Bangalore Gate</span></h1>
+                <p class="h_text">Hotel Bangalore Gate is an ideal location to explore Bengaluru and all its attractions.</p> 
+        </div>
+
             <div class="section-title">
                 <h2>About <span>Us</span></h2>
                 <p>Stay In The Heart Of Bangalore, at the 3 star Hotel Bangalore Gate & enjoy a superb location, quality rooms, great food and fabulous service. </p>
@@ -113,18 +266,22 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                         <div class="about-image">
                             <div class="image-box">
                                 <div class="image-1 abt-image">
-                                    <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square1.jpg" alt="image">
+
+                                    <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square1.jpg" alt="image">
                                 </div>
                                 <div class="image-2 abt-image">
-                                    <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square2.jpg" alt="image">
+                                    <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square2.jpg" alt="image">
+
                                 </div>
                             </div>
                             <div class="image-box">
                                 <div class="image-3 abt-image">
-                                    <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square3.jpg" alt="image">
+
+                                    <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square3.jpg" alt="image">
                                 </div>
                                 <div class="image-4 abt-image">
-                                    <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square4.jpg" alt="image">
+                                    <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLRGATE_Square/square4.jpg" alt="image">
+
                                 </div>
                             </div>
                         </div>
@@ -147,16 +304,16 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="room-item">
                         <div class="room-image">
-                                <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/BLRGate_Executive_Room_L_1560x703.jpg" alt="image">
+
+                                <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_SilverExec_Curtains_L_w1366h768_CC.jpeg" alt="image">
                             </div>
                             <div class="room-content">
                                 <div class="room-title">
-                                    <h4>Executive Room</h4>
-                                    <p>INR 2500/Night</p>
+                                    <h4>Silver Executive Room</h4>
+                                    <p>INR 3500/Night</p>
                                     <div class="deal-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                       
+
 
                                     </div>
                                 </div>
@@ -166,13 +323,15 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                                         <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
                                     </ul>
                                 </div>
-                                <p>With over 180 sq ft of space, WiFi,  Double or Twin Beds, Dressing Table, this room appeals to & satisfies our budget & value conscious guests.</p>
+
+                                <p>A great option for budget conscious guests, our Silver Executive room has 200 sq ft of space with a generous or twin bed and work desk as well. Complimentary mineral water and Tea/Coffee Maker plus hygiene kit are complimentary.<br><br><br><br><br><br><br></p>
                                 <div class="room-btns mar-top-20">
-                                <a class="btn btn-black mar-right-10" data-toggle="modal" data-target="#shiv">
+                                <a class="btn btn-black mar-right-10" data-toggle="modal" data-target="#Mo">
                                 VIEW DETAILS
   </a>
                                    
-                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+                                    <a href="https://bangaloregate.rooms-wizard.com/" target="_blank" class="btn btn-orange">BOOK NOW</a>
+
                                 </div>
                             </div>
                         </div>
@@ -180,17 +339,15 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="room-item">
                         <div class="room-image">
-                        <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/BLRGate_Superior_L_1560x703.jpg" alt="image">
+
+                        <img style="height: 35%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_GOLD_DBLBED2_L_w1366h768_cc.jpg" alt="image">
                             </div>
                             <div class="room-content">
                                 <div class="room-title">
-                                    <h4>Superior room</h4>
-                                    <p>INR 3000/Night</p>
+                                    <h4>Gold Superior room</h4>
+                                    <p>INR 4000/Night</p>
                                     <div class="deal-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                        
 
                                     </div>
                                 </div>
@@ -200,12 +357,16 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                                         <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
                                     </ul>
                                 </div>
-                                <p>With over 200 sq ft of space, WiFi,  Double or Twin Beds, Dressing Table & 2 seater Sofa with center table, you can relax & enjoy your meals  in comfort whilst watching TV.</p>
+
+                                <p>Relaxed interiors allow guests in our Gold Superior room to wallow in 220 sq ft of  superior living space with a generous queen or twin bed and mid sized work desk as well.  Wooden Flooring,  Deluxe Furnishing, Large Windows create a luxurious ambience. Kick off those shoes and put your legs up on our 2 seater sofa, whilst you watch movies on our Large LCD TV. A Mini Fridge with  Mineral water and Tea/Coffee Maker plus hygiene kit are complimentary. </p>
+
                                 <div class="room-btns mar-top-20">
                                 <a class="btn btn-black mar-right-10" data-toggle="modal" data-target="#Moda">
                                 VIEW DETAILS
   </a>    
-                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+
+                <a href="https://bangaloregate.rooms-wizard.com/" target="_blank" class="btn btn-orange">BOOK NOW</a>
+
                                 </div>
                             </div>
                         </div>
@@ -213,18 +374,17 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="room-item">
                             <div class="room-image">
-                            <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/BLRGate_Premium_L_1560x703.jpeg" alt="image">
+
+                            <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/Blr_Gate_Platinum_Sunlit_L_w1366h768_cc.jpg" alt="image">
                             </div>
                             <div class="room-content">
                                 <div class="room-title">
-                                    <h4>Premium Room</h4>
-                                    <p>INR 4000/Night</p>
+                                    <h4>Platinum Deluxe Room</h4>
+                                    <p>INR 4500/Night</p>
                                     <div class="deal-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                       
+                                       
+
                                     </div>
                                 </div>
                                 <div class="room-services mar-bottom-15">
@@ -233,13 +393,17 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                                         <li><i class="fa fa-wifi" aria-hidden="true"></i> Wifi</li>
                                     </ul>
                                 </div>
-                                <p>With over 220 sq ft of space, WiFi,  Twin Beds & Work  Table. Relax in our beautiful , spacious & luxurious rooms. Enjoy  satellite channel movies with a large screen LCD TV</p>
+
+                                <p>Luxury , Refinement & Relaxation are what guests experience in our Platinum Deluxe Room. 280 sq ft of  expansive living space with a king size or twin bed and mid sized work desk ensure all your needs are catered for.  Wooden Flooring,  Deluxe Furnishing, & Large Windows create a luxurious ambience. Put your legs up on our 3 seater sofa, whilst you have a cup of tea on the sofa and center table set. Watch movies on our Large LCD TV. A Mini Fridge with  Mineral water and Tea/Coffee Maker plus hygiene kit are complimentary. </p>
+
                                 <div class="room-btns mar-top-20">
                                 <a class="btn btn-black mar-right-10" data-toggle="modal" data-target="#Mod">
                                 VIEW DETAILS
   </a>
                                    
-                                    <a href="#" class="btn btn-orange">BOOK NOW</a>
+
+                                    <a href="https://bangaloregate.rooms-wizard.com/" target="_blank" class="btn btn-orange">BOOK NOW</a>
+
                                 </div>
                             </div>
                         </div>
@@ -288,10 +452,12 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="service-item">
                             <div class="service-image">
-                                <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate_Restaurant(1)_P_360x799.jpg" alt="Image">
+
+                                <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate_Restaurant(1)_P_360x799.jpg" alt="Image">
                             </div>
                             <div class="service-content">
-                                <h4><a href="service-detail.php">Restaurant</a></h4>
+                                <h4><a href="">Restaurant</a></h4>
+
                                 <p>Multi Cuisine open 7-11</p>
                             </div>
                         </div>
@@ -299,10 +465,12 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="service-item">
                             <div class="service-image">
-                                <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate+_Royale_Banquets_P_360x800.jpg" alt="Image">
+
+                                <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate+_Royale_Banquets_P_360x800.jpg" alt="Image">
                             </div>
                             <div class="service-content">
-                                <h4><a href="service-detail.php">Wedding & Events</a></h4>
+                                <h4><a href="">Wedding & Events</a></h4>
+
                                 <p>​​​​Elegant Wedding Venues</p>
                             </div>
                         </div>
@@ -310,10 +478,12 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
                     <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="service-item">
                             <div class="service-image">
-                                <img src="https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate_Regent_Board_Room_P_360x780.JPG" alt="Image">
+
+                                <img src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Portrait/BLRGate_Regent_Board_Room_P_360x780.JPG" alt="Image">
                             </div>
                             <div class="service-content">
-                                <h4><a href="service-detail.php">Conference Room</a></h4>
+                                <h4><a href="">Conference Room</a></h4>
+
                                 <p>​​Board & Large Meetings</p>
                             </div>
                         </div>
@@ -481,7 +651,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
             <div class="newsletter-form">
                 <form>
                     <input type="email" placeholder="Enter your email">
-                    <a href="https://bit.ly/BlrGate_Subscribe" class="btn btn-orange">SIGN UP</a>
+
+                    <a href="https://directmail.kalltrip.com/subscription?f=OjYokM4SeApoZItqb7TXX7xgn53oYLn7dhi6EQxpNMvs38JADd763EjUDkd76Z0l763d763BKJU7hbrgT3WBkhXefWCA" class="btn btn-orange">SIGN UP</a>
+
                 </form>
             </div>
         </div>
@@ -501,51 +673,20 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
 </button> -->
 
 <!-- The Modal -->
-<div class="modal" id="shiv">
-  <div class="modal-dialog modal-dialog-scrollable ">
-    <div class="modal-content">
-    
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h1 class="modal-title"></h1>
-        <button type="button" class="close"  style="color:red;"data-dismiss="modal">×</button>
-      </div>
+
+<div class="modal" id="Mo">
+    <div class="modal-dialog modal-dialog-scrollable ">
+      <div class="modal-content">
       
-      <!-- Modal body -->
-      <div class="modal-body">
-      <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Bangalore Gate</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!--Default CSS-->
-    <link href="css/default1.css" rel="stylesheet" type="text/css">
-    <!--Custom CSS-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!--Plugin CSS-->
-    <link href="css/plugin.css" rel="stylesheet" type="text/css">
-    <!--Font Awesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap"> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap"> 
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-</head>
-<body>
-  
-
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h1 class="modal-title"></h1>
+          <button type="button" class="close  " data-dismiss="modal" style="color:red;">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+    
 
 
     <!-- Preloader -->
@@ -560,9 +701,11 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
     <section class="breadcrumb-outer" >
         <div class="container">
             <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="breadcrumb-content">
-                <h4 style="color:#fff;">Room Details Full Width</h4>
+                <h4 style="color:#fff;">Room Details</h4>
+
                 
              <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
@@ -584,7 +727,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
         
 
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:350px;width:400px;">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:auto; width:100%;">
+
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -595,21 +740,17 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_VIDEO/HomePag
   <!-- Wrapper for slides -->
   <div class="carousel-inner" >
     <div class="item active">
-    <img  style="height:350px;width:400px;" src="
 
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_SilverExec_L_w1366h768_CC.jpg" alt="image">
     </div>
 
     <div class="item">
-    <img  style="height:350px;width:400px;" src="
-
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_SilverExec_DoorView_L_w1366h768_CC.jpg" alt="image">
     </div>
   
     <div class="item">
-    <img  style="height:350px;width:400px;" src="
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_SilverExec_Curtains_L_w1366h768_CC.jpeg" alt="image">
 
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
     </div>
   </div>
 
@@ -623,256 +764,249 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     <span class="sr-only">Next</span> 
   </a> 
 </div>
-          <div class="detail-content">
-              <div class="detail-title">
-                  <div class="title-left">
-                      <h3>Luxury King Room</h3>
-                      <div class="rating">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <!-- <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span> -->
-                      </div>
-                  </div>
+
+
+            <div class="detail-content">
+                <div class="detail-title">
+                    <div class="title-left">
+                        <h3>SILVER EXECUTIVE ROOM</h3>
+                        <div class="rating">
+                           
+                            <!-- <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="detail-overview">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="overview-outer">
+                                <div class="overview-content mar-bottom-30">
+                                    <h4>Overview</h4>
+                                   <p>Situated on all floors, our  modern well furnished  Silver Executive Room has 200 sq ft of space and a 10 ft ceiling.  All rooms have windows that can be opened for fresh air.  You can use our work desk to plan your day & fix appointments before you leave for your meetings.  Book a car  for your meetings with our travel desk to save time.   Enjoy a relaxed evening  after work with our large screen LCD TV  and surf our satellite channels after work.  Or use our High Speed Wifi to watch content on OTT apps. 
+Upgrade to Gold Club  </p>
+<h4>Room Inclusions</h4>
+<p>High Speed WiFi managed by Wifonic.
+Tea Coffee Maker Hot Pot  Mineral Water with daily replenishment. 
+Bathroom With Hot /Cold Running Water 24 Hrs ;  Western WC & Washbasin with Mirror. 
+Change of Bed Linen after every 2 days or before new check-in.
+24” LCD TV with Satellite channels.
+Small Work Desk
+Clothes Cupboard
+Split Air-Conditioning
+Large Size Dressing Mirror with Lamp
+Marble Flooring
+Desk Intercom
+2 Bedside Electric Multi-Pin Sockets for devices.
+Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>                                    
+                                </div>
+                           
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!-- details Ends-->
+
+    <!-- check-in Starts -->
+    <!-- <section class="check-in">
+        <div class="container">
+
+
+            <div class="row">
+                <div class=" col-md-3 col-sm-3 col-xs-3">
+                    <div class="form-group">
+                        <div class="date-range-inner-wrapper">
+                            <input id="date-range2" class="form-control" value="Check In">
+                            <span class="input-group-addon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                <div class=" col-md-3 col-sm-3 col-xs-3">
+                    <div class="form-group">
+                        <div class="date-range-inner-wrapper">
+                            <input id="date-range3" class="form-control" value="Check Out">
+                            <span class="input-group-addon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="form-group form-icon">
+                        <select>
+                            <option value="0">Type</option>
+                            <option value="1">0</option>
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                            <option value="5">4</option>
+                        </select>
+                    </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                <div class=" col-md-3 col-sm-3 col-xs-3">
+                    <div class="form-group form-icon">
+                        <select>
+                            <option value="0">Destination</option>
+                            <option value="1">0</option>
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                            <option value="5">4</option>
+                        </select>
+                    </div>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                <div class=" col-md-3 col-sm-3 col-xs-3">
+                    <div class="form-btn">
+                        <a class="btn btn-orange">Check Availability</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+      
+    </section> -->
+    <!-- check-in Ends -->
+
+    <!-- amenities starts -->
+    <section class="amenities">
+        <div class="container">
+
+                <h4 style="text-align: center;">Explore <span style="color:red;">Amenities</span></h4>
+            
+            <div class="amenities-content">
                 
-              </div>
-              <div class="detail-overview">
-                  <div class="row">
-                      <div class="col-md-4 col-sm-4 col-xs-12">
-                          <div class="overview-outer">
-                              <div class="overview-content mar-bottom-30">
-                                  <h4>Overview</h4>
-                                 <p>Our Executive Rooms are more spacious than most and have excellent built-in facilities. Enjoy a cup of tea/coffee with our hotpot before leaving for work .  Get your clothes ironed quickly & use the dressing table, to step out perfectly dressed for every occasion.  When you come back, enjoy a hot shower, in our attached bathroom and watch some movies on our Flat Screen TV.  Choose to stay in Twin or Double  Bedded arrangements with option of third rollaway bed if you have a child or elderly person with you. Connecting rooms are available in case you are a large family travelling together.  </p>                                    
-                              </div>
-                         
-                          </div>
-                      </div>
-                      <div class="col-md-4 col-sm-12 col-xs-12">
-                          <div class="overwiew-map">
-                              <div id="map" style=""></div>
-                          </div>
-                      </div>
-                  </div>
-              </div>    
-          </div>
-      </div>
-  </section>
-  <!-- details Ends-->
+                    
+                    <div class="row">
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="amt-item mar-bottom-30">
+                            <div class="amt-icon">
+                                <i class="fa fa-car" aria-hidden="true"></i>
+                            </div>
+                            <h4>Transport</h4>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="amt-item mar-bottom-30">
+                            <div class="amt-icon">
+                                <i class="fa fa-wifi" aria-hidden="true"></i>
+                            </div>
+                            <h4>Free wifi</h4>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="amt-item mar-bottom-30">
+                            <div class="amt-icon">
+                                <i class="fa fa-bath" aria-hidden="true"></i>
+                            </div>
+                            <h4>Laundry service</h4>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="amt-item">
+                            <div class="amt-icon">
+                                <i class="fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <h4>Smoking free</h4>
+                        </div>
+                    </div>
+                    </div>
+                   
+        </div>
+    </section>
+    <!-- amenities Ends -->
 
-  <!-- check-in Starts -->
-  <!-- <section class="check-in">
-      <div class="container">
+
+    <!-- detail review starts -->
+    <!-- <section class="detail-reviews">
+        <div class="container">
+
+                <h4 style="margin-left:90px;">Explore <span style="color:red;">Reviews</span></h4>
+            
+            <div class="comment-box">
+                <h4>Leave a message</h4>
+                <form>
+                    <div class="row">
+                        <div class="form-group col-xs-4 ">
+                            <input type="text" class="form-control" id="fname" placeholder="First Name">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="form-group col-xs-4">
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="form-group col-xs-4 ">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="form-group col-xs-4 ">
+                            <input type="text" class="form-control" id="number" placeholder="Phone">
+                        </div>
+                        </div>
+   
+                        <div class="row">
+                        <div class="textarea col-xs-4 ">
+                            <textarea placeholder="Enter a message"></textarea>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-xs-4 ">
+                            <div class="comment-btn">
+                                <a href="#" class="btn btn-orange">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> -->
+    <!-- detail review Ends -->
 
 
-          <div class="row">
-              <div class=" col-md-3 col-sm-3 col-xs-3">
-                  <div class="form-group">
-                      <div class="date-range-inner-wrapper">
-                          <input id="date-range2" class="form-control" value="Check In">
-                          <span class="input-group-addon">
-                              <i class="fa fa-calendar" aria-hidden="true"></i>
-                          </span>
-                      </div>
-                  </div>
-                  </div>
-              </div>
-              <div class="row">
-              <div class=" col-md-3 col-sm-3 col-xs-3">
-                  <div class="form-group">
-                      <div class="date-range-inner-wrapper">
-                          <input id="date-range3" class="form-control" value="Check Out">
-                          <span class="input-group-addon">
-                              <i class="fa fa-calendar" aria-hidden="true"></i>
-                          </span>
-                      </div>
-                  </div>
-                  </div>
-              </div>
-              <div class="row">
-              <div class="col-md-3 col-sm-3 col-xs-3">
-                  <div class="form-group form-icon">
-                      <select>
-                          <option value="0">Type</option>
-                          <option value="1">0</option>
-                          <option value="2">1</option>
-                          <option value="3">2</option>
-                          <option value="4">3</option>
-                          <option value="5">4</option>
-                      </select>
-                  </div>
-                  </div>
-              </div>
-              <br>
-              <div class="row">
-              <div class=" col-md-3 col-sm-3 col-xs-3">
-                  <div class="form-group form-icon">
-                      <select>
-                          <option value="0">Destination</option>
-                          <option value="1">0</option>
-                          <option value="2">1</option>
-                          <option value="3">2</option>
-                          <option value="4">3</option>
-                          <option value="5">4</option>
-                      </select>
-                  </div>
-              </div>
-              </div>
-              <br>
-              <div class="row">
-              <div class=" col-md-3 col-sm-3 col-xs-3">
-                  <div class="form-btn">
-                      <a class="btn btn-orange">Check Availability</a>
-                  </div>
-              </div>
-              </div>
-          </div>
     
-  </section> -->
-  <!-- check-in Ends -->
-
-  <!-- amenities starts -->
-  <section class="amenities">
-      <div class="container">
-      <h4 style="margin-left:90px;">Explore <span style="color:red;">Amenities</span></h4>
-          
-  
-          
-          <div class="amenities-content">
-              
-                  
-                  <div class="row">
-                         <div class="col-md-4 col-sm-4 col-xs-12">
-                      <div class="amt-item mar-bottom-30">
-                          <div class="amt-icon">
-                              <i class="fa fa-car" aria-hidden="true"></i>
-                          </div>
-                          <h4>Transport</h4>
-                      </div>
-                  </div>
-                  </div>
-                  <div class="row">
-                  <div class="col-md-4 col-sm-4 col-xs-12">
-                      <div class="amt-item mar-bottom-30">
-                          <div class="amt-icon">
-                              <i class="fa fa-wifi" aria-hidden="true"></i>
-                          </div>
-                          <h4>Free wifi</h4>
-                      </div>
-                  </div>
-                  </div>
-                  <div class="row">
-                  <div class="col-md-4 col-sm-4 col-xs-12">
-                      <div class="amt-item mar-bottom-30">
-                          <div class="amt-icon">
-                              <i class="fa fa-bath" aria-hidden="true"></i>
-                          </div>
-                          <h4>Laundry service</h4>
-                      </div>
-                  </div>
-                  </div>
-
-                  <div class="row">
-                  <div class="col-md-4 col-sm-4 col-xs-12">
-                      <div class="amt-item">
-                          <div class="amt-icon">
-                              <i class="fa fa-bolt" aria-hidden="true"></i>
-                          </div>
-                          <h4>Smoking free</h4>
-                      </div>
-                  </div>
-                  </div>
-              
-                  <div class="row">
-                  <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="feature-item" style="margin-left:50px; height:300px;">
-                  <div class="feature-image"style=" height:300px;">
-                      <img src="images/feature4.jpg" alt="image">
-                  </div>
-                  <div class="feature-content" >
-                      <img src="images/icons/ficon4.png" alt="image">
-                      <h4><a href="#" class="white">Restaurant</a></h4>
-                  </div>
-              </div>
-          </div>
-          </div>
+    <!-- Back to top start -->
+    <div id="back-to-top">
+        <a href="#"></a>
+    </div>
+    <!-- Back to top ends -->
 
 
-
-      </div>
-  </section>
-  <!-- amenities Ends -->
-
-
-  <!-- detail review starts -->
-  <!-- <section class="detail-reviews">
-      <div class="container">
-
-              <h4   style="margin-left:90px;">Explore <span style="color:red;">Reviews</span></h4>
-          
-          <div class="comment-box">
-              <h4>Leave a message</h4>
-              <form>
-                  <div class="row">
-                      <div class="form-group col-xs-4 ">
-                          <input type="text" class="form-control" id="fname" placeholder="First Name">
-                      </div>
-                      </div>
-                      <div class="row">
-                      <div class="form-group col-xs-4">
-                          <input type="text" class="form-control" id="lname" placeholder="Last Name">
-                      </div>
-                      </div>
-                      <div class="row">
-                      <div class="form-group col-xs-4 ">
-                          <input type="email" class="form-control" id="email" placeholder="Email">
-                      </div>
-                      </div>
-                      <div class="row">
-                      <div class="form-group col-xs-4 ">
-                          <input type="text" class="form-control" id="number" placeholder="Phone">
-                      </div>
-                      </div>
-                      <div class="row">
-                      <div class="textarea col-xs-4 ">
-                          <textarea placeholder="Enter a message"></textarea>
-                      </div>
-                      </div>
-                      <div class="row">
-                      <div class="col-xs-4 ">
-                          <div class="comment-btn">
-                              <a href="#" class="btn btn-orange">Submit</a>
-                          </div>
-                      </div>
-                  </div>
-              </form>
-          </div>
-      </div>
-  </section> -->
-  <!-- detail review Ends -->
-
+ 
+        </div>
         
-
-  <!-- *Scripts* -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/plugin.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/custom-nav.js"></script>
-  <script src="js/custom-swiper2.js"></script>
-  <script src="js/custom-singledate.js"></script>
-</body>
-</html>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
       </div>
-      
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-      
     </div>
   </div>
-</div>
+
 
 </div>
 
@@ -894,45 +1028,13 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
         <!-- Modal Header -->
         <div class="modal-header">
           <h1 class="modal-title"></h1>
-          <button type="button" class="close"  style="color:red;"data-dismiss="modal">×</button>
+
+          <button type="button" class="close  " data-dismiss="modal" style="color:red;">×</button>
+
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-        <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Bangalore Gate</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!--Default CSS-->
-    <link href="css/default1.css" rel="stylesheet" type="text/css">
-    <!--Custom CSS-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!--Plugin CSS-->
-    <link href="css/plugin.css" rel="stylesheet" type="text/css">
-    <!--Font Awesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap"> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap"> 
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-</head>
-<body>
-  
-
-
 
     <!-- Preloader -->
     <div id="preloader">
@@ -946,9 +1048,11 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     <section class="breadcrumb-outer" >
         <div class="container">
             <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="breadcrumb-content">
-                <h4 style="color:#fff;">Room Details Full Width</h4>
+                <h4 style="color:#fff;">Room Detail</h4>
+
                 
              <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
@@ -970,7 +1074,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
         
 
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:350px;width:400px;">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:auto; width:100%;">
+
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -981,21 +1087,17 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
   <!-- Wrapper for slides -->
   <div class="carousel-inner" >
     <div class="item active">
-    <img  style="height:350px;width:400px;" src="
 
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_GOLD_DBLBED2_L_w1366h768_cc.jpg" alt="image">
     </div>
 
     <div class="item">
-    <img  style="height:350px;width:400px;" src="
-
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_GOLD_DBLBED_L_w1366h768_cc.jpg" alt="image">
     </div>
   
     <div class="item">
-    <img  style="height:350px;width:400px;" src="
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_GOLD_Bath_L_w1366h768_cc.jpg" alt="image">
 
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
     </div>
   </div>
 
@@ -1012,12 +1114,14 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
             <div class="detail-content">
                 <div class="detail-title">
                     <div class="title-left">
-                        <h3>Luxury King Room</h3>
+
+                        <h3>GOLD SUPERIOR ROOM</h3>
                         <div class="rating">
+                            <!-- <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span> -->
+
                             <!-- <span class="fa fa-star checked"></span> -->
                         </div>
                     </div>
@@ -1025,20 +1129,35 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                 </div>
                 <div class="detail-overview">
                     <div class="row">
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="overview-outer">
                                 <div class="overview-content mar-bottom-30">
                                     <h4>Overview</h4>
-                                   <p>Our brilliant Superior Rooms are more spacious and have better built-in facilities.  Take a snooze on the sofa. Use the center table to enjoy some  tea/coffee from our hot pot, whilst you watch movies on  a  Flat Screen Tv  after a hot shower in the attached bathroom.  Cosset yourself in our large  Double  Bed or arrange a Twin Bed with option of third rollaway bed if you have a child or elderly person with you. Connecting rooms are available in case you are a large family travelling together. </p>                                    
+                                   <p>Situated on all floors, our  modern well furnished Gold Superior Room has 220 sq ft of space and 10 ft ceiling.  All rooms have Large vertical windows that can be opened for fresh air.  You can use our work desk to plan your day & fix appointments before you leave for your meetings.   Enjoy a relaxed evening  after work with our large screen LCD TV  and satellite channels to  surf after work.  Or use our High Speed Wifi to watch content on OTT apps. 
+Upgrade to Platinum Deluxe for a superlative stay. </p>
+<h4>Room Inclusions</h4>
+<p>High Speed WiFi managed by Wifonic.
+Wooden Flooring
+Tea Coffee Maker Hot Pot  Mineral Water with daily replenishment. 
+Bathroom With Hot /Cold Running Water 24 Hrs ;  Western WC & Washbasin with Mirror. 
+Change of Bed Linen after every 2 days or before new check-in.
+24” LCD TV with Satellite channels.
+Small Work Desk
+Clothes Cupboard
+Split Air-Conditioning
+Large Size Dressing Mirror with Lamp
+Desk Intercom
+2 Bedside Electric Multi-Pin Sockets for devices.
+Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>                                    
+
                                 </div>
                            
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <div class="overwiew-map">
-                                <div id="map" style=""></div>
-                            </div>
-                        </div>
+
+                        
+
                     </div>
                 </div>    
             </div>
@@ -1063,6 +1182,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                     </div>
                     </div>
                 </div>
+
+                <br>
+
                 <div class="row">
                 <div class=" col-md-3 col-sm-3 col-xs-3">
                     <div class="form-group">
@@ -1075,6 +1197,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                     </div>
                     </div>
                 </div>
+
+                <br>
+
                 <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3">
                     <div class="form-group form-icon">
@@ -1120,14 +1245,16 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     <!-- amenities starts -->
     <section class="amenities">
         <div class="container">
-        <h4 style="margin-left:90px;">Explore <span style="color:red;">Amenities</span></h4>
-            
-    
+
+
+                <h4 style="text-align: center;">Explore <span style="color:red;">Amenities</span></h4>
             
             <div class="amenities-content">
                 
+                    
                     <div class="row">
-                           <div class="col-md-4 col-sm-4 col-xs-12">
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-car" aria-hidden="true"></i>
@@ -1135,9 +1262,10 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                             <h4>Transport</h4>
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                   
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-wifi" aria-hidden="true"></i>
@@ -1147,7 +1275,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-bath" aria-hidden="true"></i>
@@ -1155,10 +1285,10 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                             <h4>Laundry service</h4>
                         </div>
                     </div>
-                    </div>
+
                     
-                    <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item">
                             <div class="amt-icon">
                                 <i class="fa fa-bolt" aria-hidden="true"></i>
@@ -1167,35 +1297,24 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                         </div>
                     </div>
                     </div>
-                
-                    <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="feature-item" style="margin-left:50px; height:300px;">
-                    <div class="feature-image"style=" height:300px;">
-                        <img src="images/feature4.jpg" alt="image">
-                    </div>
-                    <div class="feature-content" >
-                        <img src="images/icons/ficon4.png" alt="image">
-                        <h4><a href="#" class="white">Restaurant</a></h4>
-                    </div>
-                </div>
-            </div>
-            </div>
 
-
+                   
 
         </div>
     </section>
     <!-- amenities Ends -->
 
+
    
+
     <!-- detail review starts -->
     <!-- <section class="detail-reviews">
         <div class="container">
 
-                <h4   style="margin-left:90px;">Explore <span style="color:red;">Reviews</span></h4>
+
+                <h4 style="margin-left:90px;">Explore <span style="color:red;">Reviews</span></h4>
             
-           
+
             <div class="comment-box">
                 <h4>Leave a message</h4>
                 <form>
@@ -1219,6 +1338,7 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                             <input type="text" class="form-control" id="number" placeholder="Phone">
                         </div>
                         </div>
+
                         <div class="row">
                         <div class="textarea col-xs-4 ">
                             <textarea placeholder="Enter a message"></textarea>
@@ -1238,16 +1358,17 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     <!-- detail review Ends -->
 
 
-    <!-- *Scripts* -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/custom-nav.js"></script>
-    <script src="js/custom-swiper2.js"></script>
-    <script src="js/custom-singledate.js"></script>
-</body>
-</html>
+
+    
+    <!-- Back to top start -->
+    <div id="back-to-top">
+        <a href="#"></a>
+    </div>
+    <!-- Back to top ends -->
+
+
+   
+
         </div>
         
         <!-- Modal footer -->
@@ -1274,7 +1395,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
   </button> -->
 
   <!-- The Modal -->
-  <div class="modal" id="Mod">
+
+<div class="modal" id="Mod">
+
     <div class="modal-dialog modal-dialog-scrollable ">
       <div class="modal-content">
       
@@ -1286,40 +1409,6 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
         
         <!-- Modal body -->
         <div class="modal-body">
-        <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Bangalore Gate</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!--Default CSS-->
-    <link href="css/default1.css" rel="stylesheet" type="text/css">
-    <!--Custom CSS-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!--Plugin CSS-->
-    <link href="css/plugin.css" rel="stylesheet" type="text/css">
-    <!--Font Awesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap"> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap"> 
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-</head>
-<body>
-  
-
-
 
     <!-- Preloader -->
     <div id="preloader">
@@ -1333,9 +1422,11 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     <section class="breadcrumb-outer" >
         <div class="container">
             <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="breadcrumb-content">
-                <h4 style="color:#fff;">Room Details Full Width</h4>
+                <h4 style="color:#fff;">Room Details</h4>
+
                 
              <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
@@ -1357,7 +1448,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
         
 
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:350px;width:400px;">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:auto; width:100%;">
+
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -1368,21 +1461,17 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
   <!-- Wrapper for slides -->
   <div class="carousel-inner" >
     <div class="item active">
-    <img  style="height:350px;width:400px;" src="
 
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/Blr_Gate_Platinum_Sunlit_L_w1366h768_cc.jpg" alt="image">
     </div>
 
     <div class="item">
-    <img  style="height:350px;width:400px;" src="
-
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/Blr_Gate_Platinum__Sofa_L_w1366h768_cc_.jpg" alt="image">
     </div>
   
     <div class="item">
-    <img  style="height:350px;width:400px;" src="
+    <img  style="width:100%;" src="https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_LANDSCAPE_NEW/BLR_GATE_Planitum_Bath_L_w641h768_cc.jpeg" alt="image">
 
-https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/BangaloreGatePhotos/BLR_GATE_MOBILE_Landscape/L_Superior-4074x1843.jpg" alt="image">
     </div>
   </div>
 
@@ -1396,36 +1485,51 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     <span class="sr-only">Next</span> 
   </a> 
 </div>
+
             <div class="detail-content">
                 <div class="detail-title">
                     <div class="title-left">
-                        <h3>Luxury King Room</h3>
+                        <h3>PLATINUM DELUXE ROOM</h3>
                         <div class="rating">
+                            <!-- <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span> -->
                         </div>
                     </div>
-              
+
                 </div>
                 <div class="detail-overview">
                     <div class="row">
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="overview-outer">
                                 <div class="overview-content mar-bottom-30">
                                     <h4>Overview</h4>
-                                   <p>Premium Rooms are super spacious and have the best built-in facilities . Enjoy the  Flat Screen LCD TV with satellite channels, & make tea/coffee with the hot pot.  Whilst the mini fridge cools your drinks,  you can shower in the attached deluxe bathroom.  Then rest or sleep in our 2 large Twin Beds. Enjoy the room with family by using option of third rollaway bed  which can be provided if you have a child or elderly person with you. Connecting rooms are available in case you are a large family travelling together.   </p>                                    
+                                   <p>Situated on all floors, our  modern well furnished Platinum Dleuxe Room has 280 sq ft of space and 10 ft ceiling.  All rooms have Large vertical windows that can be opened for fresh air.  You can use our work desk to plan your day & fix appointments before you leave for your meetings.   Enjoy a relaxed evening  after work with our large screen LCD TV  and satellite channels to  surf after work.  Or use our High Speed Wifi to watch content on OTT apps. 
+Book more rooms on https://bangaloregate.rooms-wizard.com/</p> 
+                                   <h4>Room Inclusions</h4>
+                                   <p>High Speed WiFi managed by Wifonic.
+Tea Coffee Maker Hot Pot  Mineral Water with daily replenishment. 
+Bathroom With Hot /Cold Running Water 24 Hrs ;  Western WC & Washbasin with Mirror. 
+Change of Bed Linen after every 2 days or before new check-in.
+24” LCD TV with Satellite channels.
+Small Work Desk
+Clothes Cupboard
+Split Air-Conditioning
+Large Size Dressing Mirror with Lamp
+Wooden Flooring
+Desk Intercom
+2 Bedside Electric Multi-Pin Sockets for devices.
+Ceiling Fan with Speed Controls. Room Service is 24 hours. </p>                                   
+
                                 </div>
                            
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <div class="overwiew-map">
-                                <div id="map" style=""></div>
-                            </div>
-                        </div>
+
+                      
+
                     </div>
                 </div>    
             </div>
@@ -1510,13 +1614,15 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     <section class="amenities">
         <div class="container">
 
-                <h4 style="margin-left:90px;">Explore <span style="color:red;">Amenities</span></h4>
+
+                <h4 style="text-align: center;">Explore <span style="color:red;">Amenities</span></h4>
             
             <div class="amenities-content">
                 
-                   
+                    
                     <div class="row">
-                           <div class="col-md-4 col-sm-4 col-xs-12">
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-car" aria-hidden="true"></i>
@@ -1524,9 +1630,10 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                             <h4>Transport</h4>
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                   
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-wifi" aria-hidden="true"></i>
@@ -1536,7 +1643,9 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item mar-bottom-30">
                             <div class="amt-icon">
                                 <i class="fa fa-bath" aria-hidden="true"></i>
@@ -1544,10 +1653,10 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                             <h4>Laundry service</h4>
                         </div>
                     </div>
-                    </div>
-                   
-                    <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                  
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
                         <div class="amt-item">
                             <div class="amt-icon">
                                 <i class="fa fa-bolt" aria-hidden="true"></i>
@@ -1556,31 +1665,21 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
                         </div>
                     </div>
                     </div>
-                    <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="feature-item" style="margin-left:50px; height:300px;">
-                    <div class="feature-image"style=" height:300px;">
-                        <img src="images/feature4.jpg" alt="image">
-                    </div>
-                    <div class="feature-content" >
-                        <img src="images/icons/ficon4.png" alt="image">
-                        <h4><a href="#" class="white">Restaurant</a></h4>
-                    </div>
-                </div>
-            </div>
-            </div>
+
+                    
+
         </div>
     </section>
     <!-- amenities Ends -->
 
-  
+
     <!-- detail review starts -->
     <!-- <section class="detail-reviews">
         <div class="container">
 
                 <h4 style="margin-left:90px;">Explore <span style="color:red;">Reviews</span></h4>
             
-           
+
             <div class="comment-box">
                 <h4>Leave a message</h4>
                 <form>
@@ -1623,17 +1722,7 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
     </section> -->
     <!-- detail review Ends -->
 
-   
-    <!-- *Scripts* -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/custom-nav.js"></script>
-    <script src="js/custom-swiper2.js"></script>
-    <script src="js/custom-singledate.js"></script>
-</body>
-</html>
+
         </div>
         
         <!-- Modal footer -->
@@ -1647,6 +1736,68 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
   
 </div>
 
+  <link href="css/plugin.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- *Scripts* -->
+    
+    <script type="text/javascript">
+ var w = window.matchMedia("(max-width: 320px)");
+ var w1 = window.matchMedia("(max-width: 720px)");
+  var vid = document.getElementById("vid");
+  var source = document.createElement("source");
+  source.id = "hvid";
+  source.setAttribute("type", "video/mp4");
+  vid.appendChild(source);
+  
+  if (w.matches) {
+    vid.pause();
+    source.removeAttribute("src");
+    source.setAttribute("src", "https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_320k_b640k_scale480_test104.mp4");
+    vid.load();
+    vid.play();
+  }
+  else if (w1.matches) {
+    vid.pause();
+    source.removeAttribute("src");
+    source.setAttribute("src", "https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_720k_b1080k_scale960_test105.mp4");
+    vid.load();
+    vid.play();
+  }
+  else
+  {
+    vid.pause();
+    source.removeAttribute("src");
+    source.setAttribute("src", "https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_1440k_b1440k_scale1920_test106.mp4");
+    vid.load();
+    vid.play();
+  }
+
+window.addEventListener("resize", function(){
+  var w = window.matchMedia("(max-width: 767px)");
+  var vid = document.getElementById("vid");
+  var source = document.getElementById("hvid");
+  
+  if (w.matches) {
+    vid.pause();
+    source.src = "https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_320k_b640k_scale480_test104.mp4";
+    vid.load();
+    vid.play();
+  }
+  else if (w1.matches) {
+    vid.pause();
+    source.removeAttribute("src");
+    source.setAttribute("src", "https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_720k_b1080k_scale960_test105.mp4");
+    vid.load();
+    vid.play();
+  }
+   else {
+    vid.pause();
+    source.src = "https://d1riqdagk3udeo.cloudfront.net/BLR_GATE_VIDEO/blrgate_10frames_1440k_b1440k_scale1920_test106.mp4";
+    vid.load();
+    vid.play();
+  }
+});
+    </script>
 
 
 
@@ -1654,3 +1805,4 @@ https://s3.ap-south-1.amazonaws.com/blr.gate.static.files/BLR_GATE_IMAGES/Bangal
 <?php
 include('footer.php');
 ?>
+
